@@ -5,7 +5,34 @@ body * {
     vertical-align:top;
     box-sizing: border-box;
 }
-body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
-    sans-serif;
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 
+        sans-serif;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    width: 800px;
+}
+
+.columnLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 45%;
+}
+
+.columnRight {
+    width: 55%;
 }

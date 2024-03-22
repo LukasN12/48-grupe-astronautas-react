@@ -1,27 +1,23 @@
+import style from './Footer.module.css';
+
 function Footer() {
     return (
-        <footer class="container">
-            <div class="socials">
-                <a class="social-link" href="#">
-                    <i class="fa fa-facebook-square" aria-hidden="true" />
+        <footer className={style.container}>
+            <div className={style.socials}>
+                <a className={style.socialLink} href="/">
+                    <i className="fa fa-facebook-square" aria-hidden="true" />
                 </a>
-                <a class="social-link" href="#">
-                    <i class="fa fa-twitter" aria-hidden="true" />
+                <a className={style.socialLink} href="/">
+                    <i className="fa fa-twitter" aria-hidden="true" />
                 </a>
-                <a class="social-link" href="#">
-                    <i class="fa fa-instagram" aria-hidden="true" />
+                <a className={style.socialLink} href="/">
+                    <i className="fa fa-instagram" aria-hidden="true" />
                 </a>
-                <a class="social-link" href="#">
-                    <i class="fa fa-linkedin-square" aria-hidden="true" />
+                <a className={style.socialLink} href="/">
+                    <i className="fa fa-linkedin-square" aria-hidden="true" />
                 </a>
             </div>
-        <div class="socials">
-            <a class="social-link fa fa-facebook-square" href="#" />
-            <a class="social-link fa fa-twitter" href="#" />
-            <a class="social-link fa fa-instagram" href="#" />
-            <a class="social-link fa fa-linkedin-square" href="#" />
-        </div>
-        <p class="copyright-text">&copy; 2024 - All rights reserved /</p>
+        <p className="copyright-text">&copy; 2024 - All rights reserved /</p>
     </footer>
     );
 }
