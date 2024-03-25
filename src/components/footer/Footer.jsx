@@ -1,3 +1,4 @@
+import { FaFacebookSquare, FaTwitterSquare, FaInstagram, FaLinkedin } from "react-icons/fa";
 import style from './Footer.module.css';
 
 function Footer() {
@@ -5,16 +6,16 @@ function Footer() {
         <footer className={style.container}>
             <div className={style.socials}>
                 <a className={style.socialLink} href="/">
-                    <i className="fa fa-facebook-square" aria-hidden="true" />
+                    <FaFacebookSquare size="2rem" />
                 </a>
                 <a className={style.socialLink} href="/">
-                    <i className="fa fa-twitter" aria-hidden="true" />
+                    <FaTwitterSquare size="2rem" />
                 </a>
                 <a className={style.socialLink} href="/">
-                    <i className="fa fa-instagram" aria-hidden="true" />
+                    <FaInstagram size="2rem" />
                 </a>
                 <a className={style.socialLink} href="/">
-                    <i className="fa fa-linkedin-square" aria-hidden="true" />
+                    <FaLinkedin size="2rem" />
                 </a>
             </div>
         <p className="copyright-text">&copy; 2024 - All rights reserved /</p>
